@@ -1,0 +1,13 @@
+p=int(input('principal amount:'))
+t=int(input('time period:'))
+r=float(input('rate of interest'))
+SI=(p*t*r)/100
+print('simple interst',SI)
+EMI=(SI+p)/t*12
+print('EMI',EMI)
+OUTPUT:
+principal amount:3200
+time period:7
+rate of interest100
+simple interst 22400.0
+EMI 43885.71428571429
