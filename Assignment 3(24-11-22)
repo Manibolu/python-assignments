@@ -1,0 +1,34 @@
+sno=int(input("Enter Student no:"))
+name=input('Enter Student name:')
+group=input('Enter Group:')
+s1=int(input("Enter s1"))
+s2=int(input("Enter s2"))
+s3=int(input("Enter s3"))
+print('Student no:',sno)
+print('Student name:',name)
+print('Group:',group)
+if(s1>=35 and s2>=35 and s3>=35):
+    print("Pass");
+else:
+    print("Fail");
+OUTPUT:
+Enter Student no:123
+Enter Student name:apple
+Enter Group:mpcs
+Enter s145
+Enter s256
+Enter s325
+Student no: 123
+Student name: apple
+Group: mpcs
+Fail
+Enter Student no:135
+Enter Student name:MANGO
+Enter Group:MPCS
+Enter s160
+Enter s250
+Enter s345
+Student no: 135
+Student name: MANGO
+Group: MPCS
+Pass
