@@ -1,0 +1,17 @@
+a=42
+b=6
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a**b)
+print(a//b)
+OUTPUT:
+48
+36
+252
+7.0
+0
+5489031744
+7
