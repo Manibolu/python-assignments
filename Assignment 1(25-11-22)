@@ -1,0 +1,7 @@
+a=[1,3,5,7,9,12,15]
+v=int(input())
+print("enter element")
+if a in v:
+    print("available")
+else:
+    print("not available")
