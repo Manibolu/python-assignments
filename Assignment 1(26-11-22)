@@ -1,0 +1,13 @@
+a=int(input("enter the first digit"))
+b=int(input("enter the second digit")) 
+print(a&b)
+print(a|b)
+print(a^b)
+OUTPUT:
+enter the first digit 3
+3
+enter the second digit 6
+6
+2
+7
+5
