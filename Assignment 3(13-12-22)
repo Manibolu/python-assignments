@@ -1,0 +1,9 @@
+if __name__ == '__main__':
+    n = int(input())
+    l = map(int, input().split())
+    adc=[]
+    for i in l:
+        if i not in adc:
+            adc.append(i)
+adc.sort(reverse=True)
+print(adc[1])
