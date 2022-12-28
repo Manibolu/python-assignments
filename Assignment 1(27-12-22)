@@ -1,0 +1,9 @@
+n=int(input())
+l=list(map(int,input().split()))
+x=int(input('enter element to found'))
+if x in l:#here in is the operator to check whether data is available or not
+    print('element is found')#true block
+    print('Located at',l.index(x))
+else:
+    print('element is not found')#false block
+
